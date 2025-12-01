@@ -1,0 +1,156 @@
+Description of the Hotel Booking Demand Dataset (Kaggle)
+
+📌 1. Dataset Source
+
+The dataset used in this project is the “Hotel Booking Demand” dataset from Kaggle, originally published by researchers from the University of Lisbon.
+https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
+
+It is one of the most widely used datasets for studying:
+
+Booking patterns
+
+Demand forecasting
+
+Guest behavior
+
+Cancellation prediction
+
+Pricing trends
+
+
+📌 2. Dataset Size
+
+The original dataset contains:
+
+119,390 rows (full version)
+
+32 columns
+
+But due to file size limitations, we used a filtered version of:
+
+85,597 rows
+
+
+Both versions contain the same attributes.
+
+
+📌 3. Dataset Description
+
+This dataset includes booking information from two different hotels:
+
+🏨 1. City Hotel
+
+Located in urban environment
+
+Usually lower price (ADR)
+
+High booking volume
+
+More cancellations
+
+
+🏝 2. Resort Hotel
+
+Located in leisure/tourist area
+
+Higher price (ADR)
+
+Seasonal demand
+
+Lower cancellation rates
+
+
+
+📌 4. Features Included in the Dataset (Columns)
+
+The dataset contains 32 attributes, grouped into categories:
+
+A. Booking Details
+
+hotel — City or Resort
+
+is_canceled — Whether the booking was canceled (0/1)
+
+lead_time — Days between booking date and arrival date
+
+arrival_date_year
+
+arrival_date_month
+
+arrival_date_week_number
+
+arrival_date_day_of_month
+
+stays_in_weekend_nights
+
+stays_in_week_nights
+
+
+B. Guest Information
+
+adults
+
+children
+
+babies
+
+country
+
+customer_type (Transient, Group, Contract, etc.)
+
+
+
+C. Pricing & Financial
+
+adr — Average Daily Rate (price per night)
+
+deposit_type
+
+required_car_parking_spaces
+
+
+
+D. Booking Channel & Market Segment
+
+market_segment (Online TA, Offline TA, Direct…)
+
+distribution_channel
+
+agent
+
+company
+
+
+
+E. Room Information
+
+reserved_room_type
+
+assigned_room_type
+
+booking_changes
+
+
+📌 5. Purpose of This Dataset
+
+This dataset is ideal for:
+
+✔ Understanding hotel booking patterns
+
+✔ Studying guest behavior
+
+✔ Predicting cancellations
+
+✔ Analyzing pricing trends (ADR)
+
+✔ Customer segmentation
+
+✔ Seasonal demand analysis
+
+
+📌 7. Summary for Phase 1
+
+In Phase 1, we selected the Hotel Booking Demand dataset from Kaggle.This dataset contains 85,597 hotel booking records with 32 attributes.
+It includes detailed information about booking dates, customer types, hotel types, pricing (ADR), and cancellations.
+The dataset is suitable for analyzing booking patterns, customer behavior, price trends, and cancellation prediction.
+It provides rich real-world data from two hotels — City Hotel and Resort Hotel — making it ideal for exploratory data analysis and predictive modeling.
