@@ -1,0 +1,104 @@
+Exploratory Data Analysis (EDA) AND Visualization.
+
+In this phase, exploratory data analysis (EDA) was performed on the cleaned hotel booking dataset to uncover patterns, trends, and relationships within the data. EDA helps understand how different factors influence hotel bookings, cancellations, customer behavior, and seasonal demand.
+
+1. Univariate Analysis
+
+Studied individual variables to understand distributions and data characteristics.
+
+Examples included:
+
+Distribution of lead time
+
+Frequency of hotel types (City Hotel vs Resort Hotel)
+
+Distribution of customer types
+
+Monthly booking patterns
+
+Cancellations vs non-cancellations
+
+
+Tools used:
+Histogram, bar plots, KDE plots
+
+
+2. Bivariate Analysis
+
+Explored relationships between two variables to identify trends and dependencies.
+
+Key analyses:
+
+Hotel type vs. cancellation rate
+
+Lead time vs. cancellation
+
+ADR (Average Daily Rate) vs. hotel type
+
+Total nights vs. total cost
+
+Market segment vs. booking patterns
+
+
+Tools used:
+Scatterplots, grouped bar charts, box plots
+
+
+
+3. Multivariate Analysis
+
+Studied interactions among multiple variables simultaneously.
+
+Highlights:
+
+Correlation analysis of numerical features
+
+Heatmap to identify strong positive/negative correlations
+
+Cancellation probability influenced by lead time, ADR, deposit type
+
+
+Tools used:
+Heatmap, correlation matrix
+
+ 
+
+Visualizations:
+
+Various plots were created using Matplotlib and Seaborn, including:
+
+Histograms
+
+Bar charts
+
+Boxplots
+
+Scatterplots
+
+Countplots
+
+Heatmaps
+
+Line plots
+
+Pie chart 
+
+
+Each visualization included proper labels, titles, and insights based on observed trends.
+
+
+
+Outcome:
+
+The EDA revealed important insights such as:
+
+City Hotels receive more bookings than Resort Hotels
+
+Higher lead time strongly correlates with higher cancellation rates
+
+ADR varies significantly between hotel types and seasons
+
+Summer months show peak booking levels
+
+Certain customer types and market segments contribute more to cancellations
+
